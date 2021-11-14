@@ -141,6 +141,12 @@ span {
 }
 
 @media screen and (max-width: 900px) {
+  .section-card {
+    padding: 15px 0;
+  }
+  .container {
+    height: 100%;
+  }
   .card {
     width: 18em;
     height: 42em;
@@ -183,10 +189,16 @@ span {
 
   .statistic-numbers {
     font-size: 18px;
+    text-transform: none;
   }
 
   .statistic-data {
     margin-top: 25px;
+    font-size: 11px;
+  }
+
+  .statistic-data:last-of-type {
+    margin-bottom: 10px;
   }
 
   .attribution {
@@ -195,17 +207,4 @@ span {
   }
 }
 
-@media screen and (max-width: 900px) and (max-height: 735px) {
-  .card {
-    height: 30em;
-  }
-
-  .photo {
-    display: none;
-  }
-
-  .attribution {
-    margin-top: 12px;
-  }
-}
 /*media queries*/
